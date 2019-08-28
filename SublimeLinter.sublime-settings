@@ -1,0 +1,11 @@
+// SublimeLinter Settings - User
+{
+  "linters": {
+    "eslint": {
+      "selector": "source.js, source.jsx, source.ts, source.tsx"
+    },
+    "json": {
+		"strict": true
+	}
+  }
+}

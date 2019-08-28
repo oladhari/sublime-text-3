@@ -1,0 +1,16 @@
+[
+	{ "keys": ["ctrl+alt+f"], "command": "find_next_conflict" },
+{ "keys": ["ctrl+alt+o"], "command": "keep", "args": { "keep": "ours" } },
+{ "keys": ["ctrl+alt+t"], "command": "keep", "args": { "keep": "theirs" } },
+{ "keys": ["ctrl+alt+a"], "command": "keep", "args": { "keep": "ancestor" } },
+{ "keys": ["ctrl+alt+c"], "command": "list_conflict_files" },
+  { "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+    [
+        { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+        { "match_all": true, "key": "selection_empty" },
+        { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+        { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+        { "match_all": true, "key": "is_abbreviation" }
+    ]
+  }
+]

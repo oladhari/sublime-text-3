@@ -1,0 +1,13 @@
+// Settings in here override those in "ESLint-Formatter/ESLint-Formatter.sublime-settings",
+
+{
+	"format_on_save": true,
+	"format_on_save_extensions": [
+    "js",
+    "jsx",
+    "tsx",
+    "es",
+    "es6",
+    "babel"
+  ]
+}
